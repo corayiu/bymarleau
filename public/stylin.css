@@ -452,6 +452,12 @@ h1 span:nth-child(3n):hover{
   transform: skew(-10deg);
 }
 
+.mapimg {
+  width:85%;
+  height:85%;
+  border: solid 1px #2F251B;
+}
+
 /*-----LG----- */
 @media screen and (max-width: 1700px) {
 
@@ -642,6 +648,12 @@ h1 {
   font-size:3vw;
   text-align: center;
   padding: 20px;
+}
+
+.mapimg {
+  width:150%;
+  height:150%;
+  border: solid 1px #2F251B;
 }
 
 }
