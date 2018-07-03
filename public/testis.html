@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testis</title>
+<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="stylin.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Antic+Didone" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="prrple.slider.css" rel="stylesheet">
+
+
+<style>    ul {
+        margin: 0;
+        padding: 1em;
+    }
+    ul li {
+        line-height: 2em;
+        list-style: circle;
+    }
+    /* OPTIONAL THEMING */
+    .mobile-toggleable-menu {
+        background-color: transparent;
+        color: #fff;
+        display: block;
+     
+        height: 40px;
+        padding: 0;
+    }
+    .mobmenu-toggle {
+        background-color: #000;
+        color: #2F251B;
+        font-size: 35px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        height: 50px;
+        line-height: 50px;
+    }
+    .mobile-toggleable-menu li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+    }
+    .mobile-toggleable-menu li a {
+        display: block;
+        text-decoration: none;
+        color: #2F251B;
+        padding: 0 10px;
+    }
+    .mobile-toggleable-menu li a:hover {
+        color: #2F251B;
+    }
+    .mobmenu-toggle:hover {
+        background-color: #fff;
+    }
+    @media handheld, screen and (max-width: 480px) {
+        .mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
+            background-color: #000;
+            color: #2F251B;
+            -webkit-transform: rotate(-120deg);
+            border-radius: 50%;
+            top: 10px;
+            left:10px;
+        }
+ 			ul li {
+        line-height: 6em;
+        list-style: none;
+        font-size:3.3vw; }
+
+           .mobile-toggleable-menu li a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        padding: 0 5px;
+   						 }
+
+</style>
+<style type="text/css">body, a:hover {cursor: url(cursor.cur), progress !important;}
+</style>
+<script type="text/javascript">
+        window.addEventListener("load", function() {
+            var c, a = document.getElementById("drawingspace");
+            a.width = window.innerWidth;
+            a.height = window.innerHeight;
+            var e = !1;
+            c = a.getContext("2d");
+            a.addEventListener("mousemove", function(b) {
+                var a, d;
+                if (b.layerX || 0 == b.layerX) a = b.layerX, d = b.layerY;
+                else if (b.offsetX || 0 == b.offsetX) a = b.offsetX, d = b.offsetY;
+                c.lineCap = "round";
+                c.lineWidth = 3;
+                c.strokeStyle = "#FF3333";
+                e ? (c.lineTo(a, d), c.stroke()) : (c.beginPath(), c.moveTo(a, d), e = !0)
+            }, !1)
+            a.addEventListener("click", function(b) {
+                c.clearRect(0,0,a.width, a.height);
+                c.beginPath();
+            }, !1)
+        }, !1);
+        var stateCount = 0;
+        (function(window,undefined){
+            });
+  </script>
+<body>
+	
+<div class="grid2">  
+	<div class="title"><a href="index.html">by marleau</a></div>
+	<div class="nav"><nav><input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+		<ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+			<li><a href="about.html" class="nav-undie">about</a></li>
+			<li><a href="rates.html" class="nav-undie">rates</a></li>
+			<li><a href="https://hairbymarleau.acuityscheduling.com/schedule.php" class="nav-undie" target="_blank">book now</a></li>
+			<li><a href="testis.html" class="nav-undie">testimonals</a></li>
+			<li><a href="contact.html" class="nav-undie">contact</a></li></ul>
+			<label class="mobile-right mobmenu-toggle" for="mobile-menu-toggle">menu</label></nav>
+			</div>
+	<div class="content" style="padding: 0;"><div id="mySlider" class="slider">
+<!--     <div class="slider_area">
+        <div class="slides">
+            <div class="slide">
+                Slide 1
+            </div>
+            <div class="slide">
+                Slide 2
+            </div>
+            <div class="slide">
+                Slide 3
+            </div>
+            <div class="slide">
+                Slide 4
+            </div>
+        </div>
+    </div>
+</div> --> <div class="box">
+            <div>
+                <div class="testis" style="background-color: #e8e4dd;"><h1>Marleau’s approach to haircutting is effortlessly intuitive. She has always been very thoughtful and accommodating, listening carefully to my needs and intentions — responding to me in a very personalized, mindful, and holistic way which always leaves me feeling my most beautiful self. She is a true gem, uniquely gifted in her techniques and approach to her craft.<br><br> — Leanne</h1></div>
+                <div class="testis" style="background-color: #e8e4dd;"><h1>In combination with her now 20 years experience, Marleau uses in depth consultation to get acquainted with you and your ideas, working with you and your hair type to help you feel awesome. Her recent experience in both New York and Berlin has equipped
+  Marleau with fresh new skills to compliment her enthusiasm for hair styling.</h1></div>
+            </div>
+        </div></div>
+</div>
+<script src="testis.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.pageSlide.js"></script>
+<!-- 
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/prrple.slider.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script> -->
+<script>
+        $(document).ready(function () {
+//             $('#mySlider').prrpleSlider({
+//    csstransforms:           false,
+//     richSwiping:            false
+//     callback: function(){}
+// });
+            $('.box').pageSlide({
+
+                 // vertical,horizontal
+                direction: 'horizontal',
+                fullPage: true,
+                delay: 10000,
+                duration: 1000,
+                navigation: true,
+
+
+
+
+
+
+
+            });
+        });
+    </script>
+</body>
+</html>
+

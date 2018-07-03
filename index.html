@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>by marleau</title>
+<link rel="stylesheet" type="text/css" href="./public/menu.css">
+	<link rel="stylesheet" type="text/css" href="./public/stylin.css">
+		<link href="https://fonts.googleapis.com/css?family=Antic+Didone" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>    ul {
+        margin: 0;
+        padding: 1em;
+    }
+    ul li {
+        line-height: 2em;
+        list-style: circle;
+    }
+    /* OPTIONAL THEMING */
+    .mobile-toggleable-menu {
+        background-color: transparent;
+        color: #fff;
+        display: block;
+     
+        height: 40px;
+        padding: 0;
+    }
+    .mobmenu-toggle {
+        background-color: white;
+        color: #2F251B;
+        font-size: 35px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        height: 50px;
+        line-height: 50px;
+    }
+    .mobile-toggleable-menu li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+    }
+    .mobile-toggleable-menu li a {
+        display: block;
+        text-decoration: none;
+        color: #2F251B;
+        padding: 0 10px;
+    }
+    .mobile-toggleable-menu li a:hover {
+        color: #2F251B;
+    }
+    .mobmenu-toggle:hover {
+        background-color: #fff;
+    }
+    @media handheld, screen and (max-width: 480px) {
+        .mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
+            background-color: #2F251B;
+            color: #BA2E17;
+            -webkit-transform: rotate(-120deg);
+            border-radius: 50%;
+            top: 10px;
+            left:10px;
+        }
+ 			ul li {
+        line-height: 6em;
+        list-style: none;
+        font-size:3.3vw; }
+
+           .mobile-toggleable-menu li a {
+        display: block;
+        text-decoration: none;
+        color: #2F251B;
+        padding: 0 5px;
+   						 }
+</style>
+<style type="text/css">body, a:hover {cursor: url(./public/cursor.cur), progress !important;}</style>
+<script type="text/javascript">
+  		window.addEventListener("load", function() {
+  			var c, a = document.getElementById("drawingspace");
+  			a.width = window.innerWidth;
+  			a.height = window.innerHeight;
+  			var e = !1;
+  			c = a.getContext("2d");
+  			a.addEventListener("mousemove", function(b) {
+  				var a, d;
+  				if (b.layerX || 0 == b.layerX) a = b.layerX, d = b.layerY;
+  				else if (b.offsetX || 0 == b.offsetX) a = b.offsetX, d = b.offsetY;
+  				c.lineCap = "round";
+  				c.lineWidth = 3;
+  				c.strokeStyle = "#FF3333";
+  				e ? (c.lineTo(a, d), c.stroke()) : (c.beginPath(), c.moveTo(a, d), e = !0)
+  			}, !1)
+  			a.addEventListener("click", function(b) {
+  				c.clearRect(0,0,a.width, a.height);
+  				c.beginPath();
+  			}, !1)
+  		}, !1);
+  		var stateCount = 0;
+  		(function(window,undefined){
+  	    	});
+  </script>
+</head>
+<body>
+
+	<!-- 	<div role="main" id="scissoring" class="wrapper">
+		<img src="scissors-01.png">
+
+	</div> -->
+
+<canvas id="drawingspace" width="1680" height="847" overflow-y="scroll" style="position:fixed; z-index:0;"> </canvas>
+<div class="grid">
+	<div class="title"><a href="index.html">by marleau</a></div>
+	<div class="nav"><nav><input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+		<ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+			<li><a href="./public/about.html" class="nav-undie">about</a></li>
+			<li><a href="./public/rates.html" class="nav-undie">rates</a></li>
+			<li><a href="https://hairbymarleau.acuityscheduling.com/schedule.php" class="nav-undie" target="_blank">book now</a></li>
+			<li><a href="./public/testis.html" class="nav-undie">testimonals</a></li>
+			<li><a href="./public/contact.html" class="nav-undie">contact</a></li></ul>
+			<label class="mobile-right mobmenu-toggle" for="mobile-menu-toggle">:~)</label></nav>
+			</div>
+	<div class="content insta" style="letter-spacing: 2px;"><!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http:////lightwidget.com/widgets/a9143c05e909590a80d499b374ec91c9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:80%;border:0;overflow:hidden;"></iframe>
+</div>
+	<div class="content2" style="font-family:'Antic Didone', serif; letter-spacing: 2px;"><span style="color:#A4A6BB;">Phone</span> 778 322 9831<br>
+<span style="color:#A4A6BB;">Email</span> hairbymarleau@gmail.com<br>
+226-119 W. Pender St. Vancouver</div>
+
+</div>
+
+</body>
+</html>
+
