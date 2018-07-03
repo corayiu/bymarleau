@@ -452,6 +452,15 @@ h1 span:nth-child(3n):hover{
   transform: skew(-10deg);
 }
 
+.maparea {
+  margin-top:40px;
+  position: absolute;
+  top:50%;
+  left:50%;transform: translate(-50%,-50%);
+  text-align:center;
+  line-height: 1.5;
+}
+
 .mapimg {
   width:85%;
   height:85%;
@@ -652,9 +661,19 @@ h1 {
   padding: 20px;
 }
 
+.maparea {
+  margin-top: 0px;
+  position: absolute;
+  top:50%;
+  left:50%;transform: translate(-50%,-50%);
+  text-align:center;
+  line-height: 1.5;
+  width:100%;
+}
+
 .mapimg {
-  width:150%;
-  height:150%;
+  width:80%;
+  height:80%;
   border: solid 1px #2F251B;
 }
 
