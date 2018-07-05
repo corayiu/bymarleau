@@ -650,7 +650,7 @@ input[type=range] {
   position: fixed;
   left:50%;
   transform: translate(-50%,0);
-  bottom: 7%;
+  bottom: 10%;
 }
 
 .phrase {
