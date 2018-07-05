@@ -589,11 +589,12 @@ input[type=range] {
 .grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr auto;
+  grid-template-rows: 1fr 1fr auto auto;
   grid-template-areas:
   "nav nav"
   "title title"
-  "content content";
+  "content content"
+  "content2 content2";
 }
 
 .content {
@@ -607,6 +608,7 @@ letter-spacing: 1px;
 grid-area: content2;
 text-align: center;
 background: transparent;
+width:100%;
 }
 
 .grid div:nth-child(even) {
