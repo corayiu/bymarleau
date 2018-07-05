@@ -609,6 +609,7 @@ grid-area: content2;
 text-align: center;
 background: transparent;
 width:100%;
+padding: 0;
 }
 
 .grid div:nth-child(even) {
@@ -657,6 +658,7 @@ input[type=range] {
   width:85%;
   font-size: 1.7vh;
   line-height: 1.5;
+  font-family: 'Antic Didone', Georgia, serif;
 
 }
 
@@ -672,7 +674,7 @@ input[type=range] {
 }
 
 h1 {
-  font-family: 'antic didone', sans-serif;
+  font-family: 'Antic Didone', Georgia, serif;
   font-size:3vw;
   text-align: center;
   padding: 20px;
