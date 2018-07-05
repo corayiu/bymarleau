@@ -659,6 +659,7 @@ input[type=range] {
   font-size: 1.7vh;
   line-height: 1.5;
   font-family: 'Antic Didone', Georgia, serif;
+  margin-top:5%;
 
 }
 
@@ -678,6 +679,7 @@ h1 {
   font-size:3vw;
   text-align: center;
   padding: 20px;
+  letter-spacing: 1px;
 }
 
 .maparea {
