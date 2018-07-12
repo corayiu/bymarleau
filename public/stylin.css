@@ -726,11 +726,11 @@ input[type=range] {
 
 .phrase {
   width:85%;
-  font-size: 2vh;
+  font-size: 1.8vh;
   line-height: 1.5;
   font-family: 'Antic Didone', Georgia, serif;
   margin-top:5%;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
 }
 
 
@@ -746,7 +746,7 @@ input[type=range] {
 
 h1 {
   font-family: 'Antic Didone', Georgia, serif;
-  font-size:3.5vw;
+  font-size:5vw;
   text-align: center;
   padding: 20px;
   letter-spacing: 0.5px;
@@ -778,15 +778,6 @@ h1 {
   letter-spacing: 0;
 }
 
-.box>ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-} 
 
 .box>ul li {
     width: 10px;
@@ -795,10 +786,6 @@ h1 {
     border-radius: 50%;
     border: 3px solid white;
     transition: all 0.5s ease;
-}
-
-.box>ul li.active {
-    border-color: black; 
 }
 
 }
