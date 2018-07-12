@@ -101,7 +101,7 @@ grid-row-gap: 1em;
   font-family: 'antic didone', sans-serif;
     letter-spacing: 2px;
 grid-area: content;
-font-size:4vw;
+font-size:6vw;
 font-weight:bold;
 padding: 0 50px;
 text-align:right;
@@ -486,7 +486,7 @@ h1 span:nth-child(3n):hover{
 
 .row {
   width: 100%;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .column {
@@ -663,6 +663,7 @@ input[type=range] {
   "title title"
   "content content"
   "content2 content2";
+  grid-row-gap:0;
 }
 
 .content {
@@ -725,11 +726,11 @@ input[type=range] {
 
 .phrase {
   width:85%;
-  font-size: 1.7vh;
+  font-size: 2vh;
   line-height: 1.5;
   font-family: 'Antic Didone', Georgia, serif;
   margin-top:5%;
-
+  letter-spacing: 0.5px;
 }
 
 
@@ -745,10 +746,10 @@ input[type=range] {
 
 h1 {
   font-family: 'Antic Didone', Georgia, serif;
-  font-size:3vw;
+  font-size:3.5vw;
   text-align: center;
   padding: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .maparea {
@@ -775,6 +776,29 @@ h1 {
 
 .testis {
   letter-spacing: 0;
+}
+
+.box>ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+} 
+
+.box>ul li {
+    width: 10px;
+    height: 10px;
+    margin: 20px 10px; 
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all 0.5s ease;
+}
+
+.box>ul li.active {
+    border-color: black; 
 }
 
 }
