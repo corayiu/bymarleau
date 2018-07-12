@@ -795,5 +795,22 @@ h1 {
 
 
     }
+.rate-type {
+  font-size: 3.5vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cut {
+  line-height: 1.5;
+   text-align: left;
+    font-size:2vw;
+}
+
+.colour {
+  font-size:3vw;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
 
 }
