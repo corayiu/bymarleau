@@ -476,7 +476,7 @@ h1 span:nth-child(3n):hover{
     height: 15px;
     margin: 20px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid #2F251B;
     transition: all 0.5s ease;
 }
 
@@ -781,14 +781,14 @@ h1 {
 }
 
 
-/*.box>ul li {
+.box>ul li {
     width: 10px;
     height: 10px;
     margin: 20px 10px; 
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #2F251B;
     transition: all 0.5s ease;
-}*/
+}
 
  .nav ul {
         margin: 0;
