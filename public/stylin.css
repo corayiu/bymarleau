@@ -631,10 +631,10 @@ input[type=range] {
             top: 10px;
             left:10px;
         }
-            ul li {
-        line-height: 6em;
-        list-style: none;
-        font-size:3.3vw; }
+  ul li {
+  /*line-height: 6em;*/
+  list-style: none;
+  font-size:2.5vw; }
 
            .mobile-toggleable-menu li a {
         display: block;
@@ -787,5 +787,13 @@ h1 {
     border: 3px solid white;
     transition: all 0.5s ease;
 }
+
+ .nav ul {
+        margin: 0;
+        padding: 5%;
+        font-family: 'Montserrat', arial, serif;
+
+
+    }
 
 }
