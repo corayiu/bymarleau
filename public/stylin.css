@@ -15,6 +15,54 @@ body {
     background: #fff;
 }
 
+.nav ul {
+        margin: 0;
+        padding: 1em;
+        font-family: 'Montserrat', arial, serif;
+
+
+    }
+.nav ul li {
+        line-height: 2em;
+        list-style: circle;
+    }
+    /* OPTIONAL THEMING */
+    .mobile-toggleable-menu {
+        background-color: transparent;
+        color: #fff;
+        display: block;
+     
+        height: 40px;
+        padding: 0;
+    }
+    .mobmenu-toggle {
+        background-color: transparent;
+        color: #2F251B;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        height: 50px;
+        line-height: 50px;
+    }
+    .mobile-toggleable-menu li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+        padding: 0 5px;
+    }
+    .mobile-toggleable-menu li a {
+        display: block;
+        text-decoration: none;
+        
+    }
+    .mobile-toggleable-menu li a:hover {
+        color: #2F251B;
+
+    }
+    .mobmenu-toggle:hover {  
+    }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -88,8 +136,8 @@ margin-right:25%;
 .nav {
   grid-area: nav;
   font-size:1.7vw;
-  margin-top:15px;
-  padding: 25px 0px 0 0px;
+  margin-top:2%;
+/*  padding: 25px 0px 0 0px;*/
   z-index: 0;
 }
 
@@ -428,7 +476,7 @@ h1 span:nth-child(3n):hover{
     height: 15px;
     margin: 20px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 5px solid white;
     transition: all 0.5s ease;
 }
 
@@ -575,6 +623,26 @@ input[type=range] {
 
 @media screen and (max-width: 667px) {
 
+.mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
+            background-color: transparent;
+            color: #2F251B;
+            /*-webkit-transform: rotate(-120deg);
+            border-radius: 50%;*/
+            top: 10px;
+            left:10px;
+        }
+            ul li {
+        line-height: 6em;
+        list-style: none;
+        font-size:3.3vw; }
+
+           .mobile-toggleable-menu li a {
+        display: block;
+        text-decoration: none;
+        color: #2F251B;
+        padding: 0 5px;
+                         }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -601,7 +669,7 @@ input[type=range] {
 grid-area: content;
 text-align:center;
 padding: 0 25px;
-letter-spacing: 1px;
+letter-spacing: 0px;
 }
 
 .content2 {
