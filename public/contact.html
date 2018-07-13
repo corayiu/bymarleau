@@ -10,9 +10,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style type="text/css">body, a:hover {cursor: url(cursor.cur), progress !important;}</style>
+<script type="text/javascript">
+        window.addEventListener("load", function() {
+            var c, a = document.getElementById("drawingspace");
+            a.width = window.innerWidth;
+            a.height = window.innerHeight;
+            var e = !1;
+            c = a.getContext("2d");
+            a.addEventListener("mousemove", function(b) {
+                var a, d;
+                if (b.layerX || 0 == b.layerX) a = b.layerX, d = b.layerY;
+                else if (b.offsetX || 0 == b.offsetX) a = b.offsetX, d = b.offsetY;
+                c.lineCap = "round";
+                c.lineWidth = 3;
+                c.strokeStyle = "#ff3333";
+                e ? (c.lineTo(a, d), c.stroke()) : (c.beginPath(), c.moveTo(a, d), e = !0)
+            }, !1)
+            a.addEventListener("click", function(b) {
+                c.clearRect(0,0,a.width, a.height);
+                c.beginPath();
+            }, !1)
+        }, !1);
+        var stateCount = 0;
+        (function(window,undefined){
+            });
+  </script>
 </head>
 <body>
-	</div>
+	 <canvas id="drawingspace" width="1680" height="847" overflow-y="scroll" style="position:fixed; z-index:0;"> </canvas>
 <div class="grid2">
 	<div class="title"><a href="https://www.bymarleau.com">by marleau</a></div>
 	<div class="nav"><nav><input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
@@ -26,7 +51,7 @@
 			</div>
 	<div class="content"><div class="maparea"><div class="contact skew hvr-wobble-skew">Phone 778-322-9831
 <br>Email hairbymarleau@gmail.com<br>
-226-119 W. Pender St. Vancouver</div><br><div class="map" style="text-align: center;"><a href="https://www.google.ca/maps/place/Oh+Hey+Style/@49.2814631,-123.1102006,17z/data=!3m1!4b1!4m5!3m4!1s0x548671791b0ac34d:0x58bdf977255e4ed2!8m2!3d49.2814631!4d-123.1080119" target="_blank"><img src="images/web_map.jpg" alt="by marleau location" class="mapimg"></a></div></div>
+226-119 W. Pender St. Vancouver</div><br><div class="map" style="text-align: center;"><a href="https://www.google.ca/maps/place/Oh+Hey+Style/@49.2814631,-123.1102006,17z/data=!3m1!4b1!4m5!3m4!1s0x548671791b0ac34d:0x58bdf977255e4ed2!8m2!3d49.2814631!4d-123.1080119" target="_blank"><img src="images/web_map2.jpg" alt="by marleau location" class="mapimg"></a></div></div>
 </div>
 
 </div>
