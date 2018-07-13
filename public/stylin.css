@@ -125,12 +125,12 @@ font-weight:bold;
 
 .lessshit {
  float: left;
- margin-left: 25%;
+ margin-left: 20%;
 }
 
 .moreshit {
  float:right;
-margin-right:25%;
+margin-right:20%;
 }
 
 .nav {
@@ -502,6 +502,10 @@ h1 span:nth-child(3n):hover{
   margin-right:7%;
 }
 
+.styling {
+  display:none;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -726,7 +730,7 @@ text-decoration: none;
 
 input[type=range] {
   -webkit-appearance: none;
-  width: 30%;
+  width: 40%;
   margin: 0px 0;
   position: fixed;
   left:50%;
@@ -740,7 +744,7 @@ input[type=range] {
   line-height: 1.5;
   font-family: 'Antic Didone', Georgia, serif;
   margin-top:5%;
-  letter-spacing: 0px;
+  letter-spacing: -0.5px;
 }
 
 
@@ -825,5 +829,8 @@ h1 {
 
 .prices {
   margin-right:3%;
+}
+.styling {
+  margin-top:1%;
 }
 }
