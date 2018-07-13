@@ -419,7 +419,9 @@ h1 {
   font-family: 'antic didone', serif;
   text-align: center;
   padding: 40px 40px;
-  font-size:3.5vw;
+  font-size:6.3vh;
+  width:90%;
+  margin: 0 auto;
 }
 
 
@@ -751,7 +753,7 @@ h1 {
   font-size:5vw;
   text-align: center;
   padding: 20px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
 }
 
 .maparea {
