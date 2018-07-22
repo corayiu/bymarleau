@@ -37,12 +37,14 @@ body {
     }
     .mobmenu-toggle {
         background-color: transparent;
+        font-size:4vw;
         color: #2F251B;
         text-decoration: none;
         text-align: center;
         font-weight: bold;
         height: 50px;
         line-height: 50px;
+        border-radius: 50%;
     }
     .mobile-toggleable-menu li {
         display: inline-block;
@@ -637,7 +639,7 @@ input[type=range] {
 
 .mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
             background-color: transparent;
-            color: #2F251B;
+            color: #e8e4dd;
             /*-webkit-transform: rotate(-120deg);
             border-radius: 50%;*/
             top: 10px;
