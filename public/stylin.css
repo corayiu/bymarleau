@@ -31,7 +31,6 @@ body {
         background-color: transparent;
         color: #fff;
         display: block;
-     
         height: 40px;
         padding: 0;
     }
@@ -42,9 +41,10 @@ body {
         text-decoration: none;
         text-align: center;
         font-weight: bold;
-        height: 50px;
+        height: 7%;
         line-height: 50px;
         border-radius: 50%;
+        left:3%;
     }
     .mobile-toggleable-menu li {
         display: inline-block;
