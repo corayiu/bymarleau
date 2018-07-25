@@ -639,7 +639,7 @@ input[type=range] {
 
 .mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
             background-color: transparent;
-            color: #e8e4dd;
+            color: #fffef7;
             /*-webkit-transform: rotate(-120deg);
             border-radius: 50%;*/
             top: 10px;
@@ -853,8 +853,8 @@ h1 {
 @media screen and (max-width: 320px) {
 .phrase {
   width:85%;
-  font-size: 2.1vh;
-  line-height: 1.5;
+  font-size: 2.2vh;
+  line-height: 1.4;
   font-family: 'Antic Didone', Georgia, serif;
   margin-top:5%;
   letter-spacing: -0.5px;
