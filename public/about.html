@@ -12,7 +12,6 @@
 <style type="text/css">body, a:hover {cursor: url(cursor.cur), progress !important;}</style>
 </head>
 <body>
-    <canvas id="drawingspace" width="1680" height="847" overflow-y="scroll" style="position:fixed; z-index:0;"> </canvas>
 <div class="grid2">
 	<div class="title"><a href="https://www.bymarleau.com">by marleau</a></div>
 	<div class="nav"><nav><input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
@@ -31,31 +30,7 @@
     <script src="copy.js"></script>
 
 </div>
-<script type="text/javascript">
-        window.addEventListener("load", function() {
-            var c, a = document.getElementById("drawingspace");
-            a.width = window.innerWidth;
-            a.height = window.innerHeight;
-            var e = !1;
-            c = a.getContext("2d");
-            a.addEventListener("mousemove", function(b) {
-                var a, d;
-                if (b.layerX || 0 == b.layerX) a = b.layerX, d = b.layerY;
-                else if (b.offsetX || 0 == b.offsetX) a = b.offsetX, d = b.offsetY;
-                c.lineCap = "round";
-                c.lineWidth = 3;
-                c.strokeStyle = "#c89b4e";
-                e ? (c.lineTo(a, d), c.stroke()) : (c.beginPath(), c.moveTo(a, d), e = !0)
-            }, !1)
-            a.addEventListener("click", function(b) {
-                c.clearRect(0,0,a.width, a.height);
-                c.beginPath();
-            }, !1)
-        }, !1);
-        var stateCount = 0;
-        (function(window,undefined){
-            });
-  </script>
+
 </body>
 </html>
 
