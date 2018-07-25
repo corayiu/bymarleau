@@ -853,7 +853,7 @@ h1 {
 @media screen and (max-width: 320px) {
 .phrase {
   width:87%;
-  font-size: 2.1vh;
+  font-size: 2.3vh;
   line-height: 1.35;
   font-family: 'Antic Didone', Georgia, serif;
   margin-top:5%;
