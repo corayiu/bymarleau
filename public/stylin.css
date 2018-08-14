@@ -17,7 +17,7 @@ body {
 
 .nav ul {
         margin: 0;
-        padding: 1em;
+        /*padding: 1em;*/
         font-family: 'Montserrat', arial, serif;
 
 
@@ -70,9 +70,9 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas:
-  "title nav"
-  ". content"
-  "content2 .";
+  "title title"
+  "content content"
+  "content2 content2";
   font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-decoration: none;
@@ -135,17 +135,84 @@ font-weight:bold;
 margin-right:20%;
 }
 
+.circle { 
+  position: relative; 
+  width: 100%; 
+  overflow: hidden; 
+  z-index: 10;
+}
+
+.circle text 
+{ 
+  font-family: 'Montserrat', Georgia, serif; 
+  font-size: 1.9vw; 
+  font-weight: bolder; 
+  letter-spacing: 2px;
+}
+
+.circle svg { position: fixed; right: -28%; bottom: -3%; width: 70%; height: 300px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.bymarleau {
+padding-left:7px;
+}
+
 .nav {
-  grid-area: nav;
-  font-size:1.7vw;
-  margin-top:2%;
+/*  grid-area: nav;*/
+  font-size:3.5vw;
+  /*margin-top:2%;*/
 /*  padding: 25px 0px 0 0px;*/
   z-index: 0;
+  margin-top:-0.8%;
+  padding-right:5px;
 }
 
 .nav a {
    color: #2F251B;
-  padding: 0px 15px 0 0;
+/*  padding: 0px 15px 0 0;*/
   text-decoration: none;
 }
 
@@ -153,18 +220,25 @@ margin-right:20%;
   grid-area: title;
 text-align:left;
 font-size:4vw;
-margin-left: 20px;
 text-decoration: none;
 color: #2F251B;
-padding: 15px;
+padding: 5px 5px;
 font-weight: bold;
 letter-spacing: 2px;
 z-index: 0;
+border: 6px solid #ff3333;
+margin: 10px;
   }
 
  .title a {
   text-decoration: none;
 color: #2F251B;
+ }
+
+ .inner {
+  border:6px solid #a4a6bb;
+  margin:5px;
+  padding:15px;
  }
 
 /*.grow { transition: all .2s ease-in-out; }
@@ -530,7 +604,7 @@ h1 span:nth-child(3n):hover{
 }
 
 .maparea {
-  margin-top:40px;
+  margin-top:7%;
   position: absolute;
   top:50%;
   left:50%;transform: translate(-50%,-50%);
