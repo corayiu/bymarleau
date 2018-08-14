@@ -198,6 +198,8 @@ margin-right:20%;
 
 .bymarleau {
 padding-left:7px;
+float:left;
+text-align:left;
 }
 
 .nav {
@@ -208,6 +210,8 @@ padding-left:7px;
   z-index: 0;
   margin-top:-0.8%;
   padding-right:5px;
+  float: right;
+  text-align: right;
 }
 
 .nav a {
@@ -734,9 +738,9 @@ input[type=range] {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-template-areas:
-  "nav nav"
+ /* "nav nav"*/
   "title title"
   "content content"
   "content2 content2";
@@ -786,11 +790,18 @@ text-align:center;
 margin-left:0;
 padding: 5px;
 letter-spacing: 0.5px;
+margin-top:3%;
 }
 
 .title a{
   text-decoration: none;
 color: #2F251B;
+}
+
+.bymarleau {
+  text-align: center;
+  float:none;
+  padding:0;
 }
 
 .nav {
