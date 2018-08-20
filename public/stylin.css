@@ -229,7 +229,7 @@ color: #2F251B;
 padding: 5px 5px;
 font-weight: bold;
 letter-spacing: 2px;
-z-index: 0;
+z-index: 100;
 border: 6px solid #ff3333;
 margin: 10px;
   }
@@ -531,14 +531,11 @@ h1 span:nth-child(3n):hover{
 
 .box {
     position: relative;
+    z-index: 0;
 }
 
-/*.box>div {
-  width:40%;
-}*/
-
 .box>div>div {
-    /*display: flex;*/
+/*    display: flex;*/
     justify-content: center;
     align-items: center;
 }
@@ -563,7 +560,7 @@ h1 span:nth-child(3n):hover{
 }
 
 .box>ul li.active {
-    border-color: black; 
+    border-color: #c89b4e; 
 }
 
 .row {
