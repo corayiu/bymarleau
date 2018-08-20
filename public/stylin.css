@@ -77,8 +77,8 @@ body {
     font-weight: 500;
     text-decoration: none;
     color: #2F251B;
-    grid-auto-rows: auto);
-grid-row-gap: 1em;
+    grid-auto-rows: auto;
+grid-row-gap: 0em;
 }
 
 .grid2 {
@@ -105,8 +105,8 @@ grid-row-gap: 1em;
 grid-area: content;
 font-size:6vw;
 font-weight:bold;
-padding: 0 50px;
-text-align:right;
+padding: 0 0px;
+text-align:center;
 }
 
 .content2 {
@@ -567,6 +567,7 @@ h1 span:nth-child(3n):hover{
   width: 100%;
   margin: 40px auto;
   z-index: 1;
+  padding: 0 30px;
 }
 
 .column {
@@ -618,6 +619,101 @@ h1 span:nth-child(3n):hover{
   height:85%;
   border: solid 1px #2F251B;
 }
+
+.images {
+  margin-top: 50px;
+}
+
+.imageblock {
+  /*padding: 70px 20px;*/
+   float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.hovertext {
+  display:none;
+  position:relative;
+top:-520px;
+left:120px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fff;
+  width:60%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  background-color: #ff3333;
+  padding: 25px;
+/*  border-radius: 50%;*/
+}
+
+.hovertext2 {
+  background-color: #c89b4e;
+   display:none;
+  position:relative;
+top:-520px;
+left:120px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fff;
+  width:60%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  padding: 25px;
+  /*border-radius: 50%;*/
+}
+
+.hovertext3 {
+  background-color: #A4A6BB;
+   display:none;
+  position:relative;
+top:-520px;
+left:80px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fff;
+  width:70%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  padding: 25px;
+/*  border-radius: 50%;*/
+}
+
+a:hover + .hovertext  {
+  display:block;
+}
+
+
+a:hover + .hovertext2  {
+  display:block;
+}
+
+
+a:hover + .hovertext3  {
+  display:block;
+}
+
+.keyword {
+  width:100%;
+  text-align: center;
+  margin-top:-200px;
+}
+
+.keyword span {
+  font-size:3.5vw;
+  padding: 0 160px;
+}
+
 }
 
 /*-----LG----- */
@@ -927,6 +1023,17 @@ h1 {
 }
 .styling {
   margin-top:1%;
+}
+
+.keyword {
+  width:100%;
+  text-align: center;
+  margin-top:-200px;
+}
+
+.keyword span {
+  font-size:3.5vw;
+  padding: 0 20px;
 }
 }
 
