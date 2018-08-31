@@ -819,13 +819,13 @@ input[type=range] {
  .nav ul li {
   /*line-height: 6em;*/
   list-style: none;
-  font-size:2.5vw; }
+  font-size:3vw; }
 
            .mobile-toggleable-menu li a {
         display: block;
         text-decoration: none;
         color: #2F251B;
-        padding: 0 5px;
+        padding: 0 0px;
                          }
 
 .grid {
