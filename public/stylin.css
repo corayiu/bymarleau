@@ -1035,6 +1035,25 @@ h1 {
   font-size:3.5vw;
   padding: 0 20px;
 }
+
+.imageblock {
+  /*padding: 70px 20px;*/
+   float: none;
+  padding: 0px;
+  width:100%;
+}
+
+.hovertext {
+  display:none;
+}
+
+.hovertext2 {
+  display:none;
+}
+
+.hovertext3 {
+  display:none;
+}
 }
 
 /*--------------MOBILE--------------*/
