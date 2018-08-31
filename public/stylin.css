@@ -1164,7 +1164,7 @@ a:hover + .hovertext3  {
   position: relative; 
   width: 100%; 
   overflow: hidden; 
-  z-index: 10;
+  z-index: 1000;
 }
 
 .circle text 
