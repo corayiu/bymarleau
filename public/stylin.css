@@ -819,7 +819,8 @@ input[type=range] {
  .nav ul li {
   /*line-height: 6em;*/
   list-style: none;
-  font-size:3vw; }
+  font-size:3.5vw;
+  letter-spacing: 1px; }
 
            .mobile-toggleable-menu li a {
         display: block;
@@ -1004,13 +1005,15 @@ h1 {
 .rate-type {
   font-size: 7vw;
   font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
 }
 
 .row {
   width: 100%;
   margin: 40px auto;
   z-index: 1;
-  padding: 0 5px;
+  padding: 0 10px;
+  overflow: hidden;
 }
 
 .cut {
@@ -1024,6 +1027,7 @@ h1 {
   text-align: left;
   line-height: 1.5;
   margin-bottom: 15px;
+  overflow: hidden;
 }
 
 .prices {
