@@ -662,7 +662,7 @@ left:120px;
   margin: 10px;
   font-size:3vw;
   z-index: 10;
-  color: #fff;
+  color: #fffef7;
   width:60%;
 /*  font-family: "Montserrat", Arial, sans-serif;*/
   pointer-events:none;
@@ -680,7 +680,7 @@ left:120px;
   margin: 10px;
   font-size:3vw;
   z-index: 10;
-  color: #fff;
+  color: #fffef7;
   width:60%;
 /*  font-family: "Montserrat", Arial, sans-serif;*/
   pointer-events:none;
@@ -697,7 +697,7 @@ left:80px;
   margin: 10px;
   font-size:3vw;
   z-index: 10;
-  color: #fff;
+  color: #fffef7;
   width:70%;
 /*  font-family: "Montserrat", Arial, sans-serif;*/
   pointer-events:none;
@@ -1003,7 +1003,7 @@ margin-top:10%;
 }
 
 .maparea {
-  margin-top: 10%;
+  margin-top: 15%;
   position: absolute;
   top:50%;
   left:50%;transform: translate(-50%,-50%);
@@ -1109,7 +1109,7 @@ margin-top:10%;
   display: block;
   padding: 70px 0px;
   width:100%;
-  color: #fff;
+  color: #fffef7;
   font-size: 10vw;
   letter-spacing: -0.5px;
 }
@@ -1119,7 +1119,7 @@ margin-top:10%;
   display: block;
   padding: 70px 0px;
   width:100%;
-  color: #fff;
+  color: #fffef7;
   font-size: 10vw;
   letter-spacing: -0.5px;
 }
@@ -1129,7 +1129,7 @@ margin-top:10%;
   display: block;
   padding: 70px 0px;
   width:100%;
-  color: #fff;
+  color: #fffef7;
   font-size: 10vw;
   letter-spacing: -0.5px;
 }
