@@ -45,7 +45,7 @@ body {
         line-height: 50px;
         border-radius: 50%;
         left:3%;
-        letter-spacing: 0px;
+        letter-spacing: -1px;
     }
     .mobile-toggleable-menu li {
         display: inline-block;
@@ -820,8 +820,8 @@ input[type=range] {
  .nav ul li {
   /*line-height: 6em;*/
   list-style: none;
-  font-size:3.8vw;
-  margin-top: -0.3%;
+  font-size:4vw;
+  margin-top: -0.6%;
    }
 
            .mobile-toggleable-menu li a {
