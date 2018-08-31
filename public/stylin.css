@@ -830,13 +830,13 @@ input[type=range] {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-areas:
  /* "nav nav"*/
-  "title title"
-  "content content"
-  "content2 content2";
+  "title"
+  "content"
+  "content2";
 }
 
 .grid2 {
@@ -854,7 +854,7 @@ input[type=range] {
 .content {
 grid-area: content;
 text-align:center;
-padding: 0 25px;
+padding: 0 0px;
 letter-spacing: 0px;
 font-size: 6vw;
 }
@@ -884,6 +884,7 @@ margin-left:0;
 padding: 5px;
 letter-spacing: 0.5px;
 margin-top:15%;
+margin-right:0;
 }
 
 .title a{
@@ -1029,6 +1030,7 @@ h1 {
   width:100%;
   text-align: center;
   margin-top:-200px;
+  display: none;
 }
 
 .keyword span {
@@ -1053,6 +1055,45 @@ h1 {
 
 .hovertext3 {
   display:none;
+}
+.circle { 
+  position: relative; 
+  width: 100%; 
+  overflow: hidden; 
+  z-index: 10;
+}
+
+.circle text 
+{ 
+  font-family: 'Montserrat', Georgia, serif; 
+  font-size: 10vw; 
+  font-weight: bolder; 
+  letter-spacing: 2px;
+}
+
+.circle svg { position: fixed; right: -10%; bottom: -3%; width: 70%; height: 300px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
 }
 }
 
