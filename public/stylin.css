@@ -1111,7 +1111,7 @@ margin-top:10%;
   width:100%;
   color: #fff;
   font-size: 10vw;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 
 .blockquote2 {
@@ -1121,7 +1121,7 @@ margin-top:10%;
   width:100%;
   color: #fff;
   font-size: 10vw;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 
 .blockquote3 {
@@ -1131,7 +1131,7 @@ margin-top:10%;
   width:100%;
   color: #fff;
   font-size: 10vw;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 
 .hovertext {
