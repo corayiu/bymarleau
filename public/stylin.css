@@ -1145,6 +1145,21 @@ margin-top:10%;
 .hovertext3 {
   display:none;
 }
+
+a:hover + .hovertext  {
+  display:none;
+}
+
+
+a:hover + .hovertext2  {
+  display:none;
+}
+
+
+a:hover + .hovertext3  {
+  display:none;
+}
+
 .circle { 
   position: relative; 
   width: 100%; 
