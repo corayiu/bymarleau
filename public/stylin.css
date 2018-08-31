@@ -820,13 +820,14 @@ input[type=range] {
   /*line-height: 6em;*/
   list-style: none;
   font-size:3.5vw;
-  letter-spacing: 1px; }
+   }
 
            .mobile-toggleable-menu li a {
         display: block;
         text-decoration: none;
         color: #2F251B;
         padding: 0 0px;
+        letter-spacing: 0px;
                          }
 
 .grid {
