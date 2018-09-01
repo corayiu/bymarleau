@@ -828,14 +828,14 @@ input[type=range] {
 
 @media screen and (max-width: 667px) {
 
-.mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
+/*.mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
             background-color: transparent;
             color: #fffef7;
-            /*-webkit-transform: rotate(-120deg);
-            border-radius: 50%;*/
+            -webkit-transform: rotate(-120deg);
+            border-radius: 50%;
             top: 10px;
             left:10px;
-        }
+        }*/
  .nav ul li {
   /*line-height: 6em;*/
   list-style: none;
