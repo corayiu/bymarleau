@@ -14,6 +14,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/jquery.pageSlide.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
 </head>
 <body>
 	
@@ -67,6 +68,18 @@
             $('.box').pageSlide();
 
         });
+
+            $(function() {          
+                    //Enable swiping...
+                    $("#test").swipe( {
+                        //Generic swipe handler for all directions
+                        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+                            $(this).text("You swiped " + direction );   
+                        },
+                        //Default is 75px, set to 0 for demo so any distance triggers swipe
+                       threshold:0
+                    });
+                });
     </script>
 </body>
 </html>

@@ -557,7 +557,7 @@ h1 span:nth-child(3n):hover{
     margin: 20px;
     border-radius: 50%;
     border: 5px solid #2F251B;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 .box>ul li.active {
@@ -1035,12 +1035,12 @@ margin-top:10%;
 
 
 .box>ul li {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin: 20px 10px; 
     border-radius: 50%;
     border: 3px solid #2F251B;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
  .nav ul {

@@ -14,7 +14,7 @@
             width: 500, // 不是全屏滚动时，设置滑动宽度
             height: 500, // 不是全屏滚动时，设置滑动高度
             autoSlide: false, // 是否自动滚动
-            loop: true, // 是否循环滚动
+            loop: false, // 是否循环滚动
             delay: 20000, // 自动滚动间隔时间，单位ms
             duration: 1200, // 滚动持续时间，单位ms
             navigation: true, // 是否显示定位分页
