@@ -136,6 +136,10 @@ font-weight:bold;
 margin-right:20%;
 }
 
+.home {
+  display: none;
+}
+
 .circle { 
   position: relative; 
   width: 100%; 
@@ -984,8 +988,8 @@ input[type=range] {
   z-index: 100;
 }
 input[type=range]::-webkit-slider-thumb {
-  box-shadow: 0.6px 0.6px 0.5px #000000, 0px 0px 0.6px #0d0d0d;
-  border: 1.7px solid #000000;
+  box-shadow: 0.6px 0.6px 0.5px #2F251B, 0px 0px 0.6px #0d0d0d;
+  border: 1.7px solid #2F251B;
   height: 25px;
   width: 25px;
   border-radius: 25px;
@@ -1035,6 +1039,15 @@ h1 {
 margin-right:10%;
 font-size:4.5vw;
 margin-top:10%;
+}
+
+
+.home {
+  display: block;
+  color: #2F251B;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size:3vw;
+  margin-top: 8%
 }
 
 .maparea {
