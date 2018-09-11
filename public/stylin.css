@@ -225,6 +225,15 @@ text-align:left;
   text-decoration: none;
 }
 
+.nav-desktop {
+  display: block;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+
 .title {
   grid-area: title;
 text-align:left;
@@ -956,6 +965,14 @@ text-align: right;
 text-decoration: none;
 }
 
+.nav-desktop a {
+  display: none;
+}
+
+.nav-mobile a {
+  display: block;
+}
+
 input[type=range] {
   -webkit-appearance: none;
   width: 40%;
@@ -1187,6 +1204,7 @@ a:hover + .hovertext3  {
   width: 100%; 
   overflow: hidden; 
   z-index: 1234;
+  display: none;
 }
 
 .circle text 
@@ -1319,4 +1337,15 @@ a:hover + .hovertext3  {
     from { transform: rotate(360deg); }
     to { transform: rotate(0); }
 }
+
+.maparea {
+  margin-top: 20%;
+  position: absolute;
+  top:50%;
+  left:50%;transform: translate(-50%,-50%);
+  text-align:center;
+  line-height: 1.5;
+  width:100%;
+}
+
 }
