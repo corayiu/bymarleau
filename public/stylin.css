@@ -496,7 +496,7 @@ font-family: 'antic didone', serif;
   font-family: 'Montserrat', sans-serif;
 }
 
-.cut {
+.gender0 {
   line-height: 1.5;
    text-align: left;
     font-size:2vw;
@@ -1084,6 +1084,8 @@ margin-top:10%;
   font-size: 7vw;
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .row {
@@ -1094,10 +1096,11 @@ margin-top:10%;
   overflow: hidden;
 }
 
-.cut {
+.gender0 {
   line-height: 1.5;
-   text-align: left;
+   text-align: center;
     font-size:6vw;
+    margin: 0 auto;
 }
 
 .colour {
