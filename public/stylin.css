@@ -203,6 +203,10 @@ float:left;
 text-align:left;
 }
 
+.booknow {
+  display: none;
+}
+
 .nav {
 /*  grid-area: nav;*/
   font-size:3.5vw;
@@ -923,12 +927,18 @@ color: #2F251B;
 }
 
 .bymarleau {
+  display: none;
+}
+
+  .booknow {
+    display:block;
   text-align: center;
   float:none;
   padding:0;
   font-size:10vw;
   letter-spacing: -0.5px;
-}
+  }
+
  .inner {
   border:5px solid #a4a6bb;
   margin:2px;
@@ -1260,7 +1270,7 @@ a:hover + .hovertext3  {
 
 
 
-.circle { position: relative; width: 100%; overflow: hidden; font-size:100%;z-index: 1808 }
+.circle { position: relative; width: 100%; overflow: hidden; font-size:100%; display:none; }
 
 .circle text { font-family: 'Bagnard', Georgia, serif; font-size: 90%; font-weight: bold; letter-spacing: 2px;}
 
