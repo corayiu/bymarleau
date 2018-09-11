@@ -1076,6 +1076,15 @@ margin-top:10%;
   letter-spacing: -0.5px;
 }
 
+.box>ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+} 
 
 .box>ul li {
     width: 12px;
