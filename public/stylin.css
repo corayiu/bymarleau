@@ -1260,7 +1260,7 @@ a:hover + .hovertext3  {
 
 
 
-.circle { position: relative; width: 100%; overflow: hidden; font-size:100%; }
+.circle { position: relative; width: 100%; overflow: hidden; font-size:100%;z-index: 1808 }
 
 .circle text { font-family: 'Bagnard', Georgia, serif; font-size: 90%; font-weight: bold; letter-spacing: 2px;}
 
