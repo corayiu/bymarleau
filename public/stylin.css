@@ -525,6 +525,9 @@ h1 span:nth-child(3n):hover{
    color: #c89b4e;
 }
 
+.testis {
+  letter-spacing: -0.2px;
+}
 
 /*h1 span:nth-child(4n):hover{
    color: #D0C3B0;
@@ -1208,6 +1211,27 @@ a:hover + .hovertext3  {
        -o-animation-timing-function: linear;
           animation-timing-function: linear;
 
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
 }
 
 .buzzer {
