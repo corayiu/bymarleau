@@ -6,7 +6,7 @@
         this.ele = ele,
         this.child = this.ele.find('>div'),
         this.descendant = this.child.find('>div'),
-        this.index = -5,
+        this.index = 1,
         // 默认参数
         this.defaults = {
             direction: 'horizontal', // 滑动方向，参数vertical,horizontal
@@ -14,8 +14,8 @@
             width: 500, // 不是全屏滚动时，设置滑动宽度
             height: 500, // 不是全屏滚动时，设置滑动高度
             autoSlide: false, // 是否自动滚动
-            loop: false, // 是否循环滚动
-            delay: 20000, // 自动滚动间隔时间，单位ms
+            loop: true, // 是否循环滚动
+            delay: 3000, // 自动滚动间隔时间，单位ms
             duration: 1200, // 滚动持续时间，单位ms
             navigation: true, // 是否显示定位分页
             navigationEvent: 'click', // 定位分页触发事件，如mouseover、click
@@ -269,8 +269,8 @@
         // 活动导航
         activeNavigation: function () {
             if (this.options.navigation) {
-                $('.box> ul li').removeClass('active');
-                $('.box> ul li').eq(this.index - 1).addClass('active');
+                $('ul li').removeClass('active');
+                $('ul li').eq(this.index - 1).addClass('active');
             }
         }
     }

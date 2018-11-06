@@ -1051,13 +1051,6 @@ text-align:left;
 margin-top:1%;
 }
 
-.phrase {
-  width:85%;
-  font-size: 2vh;
-  line-height: 1.5;
-
-}
-
 .circle { 
   position: relative; 
   width: 100%; 
@@ -1570,7 +1563,7 @@ a:hover + .hovertext3  {
 
 }
 
-/*--------------MOBILE--------------*/
+/*--------------MOBILE-XS--------------*/
 
 @media screen and (max-width: 320px) {
 
