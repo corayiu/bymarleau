@@ -746,12 +746,13 @@ a:hover + .hovertext3  {
 .keyword {
   width:100%;
   text-align: center;
-  margin-top:-200px;
+  margin-bottom:5%;
 }
 
 .keyword span {
   font-size:3.5vw;
-  padding: 0 160px;
+  padding: 0 9%;
+
 }
 
 }
@@ -779,7 +780,7 @@ input[type=range] {
 .keyword {
   width:100%;
   text-align: center;
-  margin-top:-200px;
+  margin-bottom:-5%;
 }
 
 .keyword span {
@@ -877,14 +878,14 @@ h1 {
 }
 
 .keyword {
-  width:50%;
+  width:100%;
   text-align: center;
-  margin-top:-100px;
+  margin-bottom:5%;
 }
 
 .keyword span {
   font-size:3.5vw;
-  padding: 0 160px;
+  padding: 0 13%;
 }
 }
 
