@@ -16,7 +16,7 @@
             autoSlide: false, // 是否自动滚动
             loop: true, // 是否循环滚动
             delay: 3000, // 自动滚动间隔时间，单位ms
-            duration: 1200, // 滚动持续时间，单位ms
+            duration: 1000, // 滚动持续时间，单位ms
             navigation: true, // 是否显示定位分页
             navigationEvent: 'click', // 定位分页触发事件，如mouseover、click
             callback: function () {}, // 回调函数
@@ -269,8 +269,8 @@
         // 活动导航
         activeNavigation: function () {
             if (this.options.navigation) {
-                $('ul li').removeClass('active');
-                $('ul li').eq(this.index - 1).addClass('active');
+                $('.box> ul li').removeClass('active');
+                $('.box> ul li').eq(this.index - 1).addClass('active');
             }
         }
     }
