@@ -776,6 +776,17 @@ input[type=range] {
 
 }
 
+.keyword {
+  width:100%;
+  text-align: center;
+  margin-top:-200px;
+}
+
+.keyword span {
+  font-size:3.5vw;
+  padding: 0 160px;
+}
+
 }
 
 /*-----MD----- */
@@ -790,6 +801,7 @@ input[type=range] {
   transform: translate(-50%,0);
   bottom: 15%;
 }
+
 
 .phrase {
   width:85%;
@@ -862,6 +874,17 @@ h1 {
   text-align: center;
   padding: 20px;
   letter-spacing: -0.5px;
+}
+
+.keyword {
+  width:50%;
+  text-align: center;
+  margin-top:-100px;
+}
+
+.keyword span {
+  font-size:3.5vw;
+  padding: 0 160px;
 }
 }
 
