@@ -1813,5 +1813,12 @@ h1 {  font-family: 'Antic Didone', Georgia, serif;
   padding: 20px;
   letter-spacing: -1px;
 }
+.home {
+  display: block;
+  color: #2F251B;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size:3vw;
+  margin-top: 7%
+}
 
 }
