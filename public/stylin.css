@@ -788,9 +788,61 @@ input[type=range] {
   padding: 0 160px;
 }
 
+
+.hovertext {
+  display:none;
+  position:relative;
+top:-520px;
+left:120px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fffef7;
+  width:60%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  background-color: #ff3333;
+  padding: 25px;
+/*  border-radius: 50%;*/
 }
 
-/*-----MD----- */
+.hovertext2 {
+  background-color: #c89b4e;
+   display:none;
+  position:relative;
+top:-520px;
+left:120px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fffef7;
+  width:60%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  padding: 25px;
+  /*border-radius: 50%;*/
+}
+
+.hovertext3 {
+  background-color: #A4A6BB;
+   display:none;
+  position:relative;
+top:-520px;
+left:80px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fffef7;
+  width:70%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  padding: 25px;
+/*  border-radius: 50%;*/
+}
+
+}
+
+/*-----MD----13- */
 @media screen and (max-width: 1440px) {
 
 input[type=range] {
@@ -880,13 +932,65 @@ h1 {
 .keyword {
   width:100%;
   text-align: center;
-  margin-bottom:5%;
+  margin-bottom:4%;
 }
 
 .keyword span {
   font-size:3.5vw;
-  padding: 0 13%;
+  padding: 0 9.1%;
 }
+
+.hovertext {
+  display:none;
+  position:relative;
+top:-320px;
+left:70px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fffef7;
+  width:60%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  background-color: #ff3333;
+  padding: 25px;
+/*  border-radius: 50%;*/
+}
+
+.hovertext2 {
+  background-color: #c89b4e;
+   display:none;
+  position:relative;
+top:-320px;
+left:70px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fffef7;
+  width:60%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  padding: 25px;
+  /*border-radius: 50%;*/
+}
+
+.hovertext3 {
+  background-color: #A4A6BB;
+   display:none;
+  position:relative;
+top:-320px;
+left:50px;
+  margin: 10px;
+  font-size:3vw;
+  z-index: 10;
+  color: #fffef7;
+  width:70%;
+/*  font-family: "Montserrat", Arial, sans-serif;*/
+  pointer-events:none;
+  padding: 25px;
+/*  border-radius: 50%;*/
+}
+
 }
 
 /*-----SM----- */
@@ -1135,7 +1239,16 @@ margin-top:1%;
     to { transform: rotate(0); }
 }
 
+.keyword {
+  width:100%;
+  text-align: center;
+  margin-bottom:4%;
+}
 
+.keyword span {
+  font-size:3.5vw;
+  padding: 0 6.1%;
+}
 }
 
 
