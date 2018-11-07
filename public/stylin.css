@@ -1717,7 +1717,7 @@ input[type=range] {
 
 .phrase {
   width:88%;
-  font-size: 1.9vh;
+  font-size: 1.95vh;
   line-height: 1.3;
   font-family: 'Antic Didone', Georgia, serif;
   margin-top:5%;
@@ -1812,21 +1812,6 @@ h1 {  font-family: 'Antic Didone', Georgia, serif;
   text-align: center;
   padding: 20px;
   letter-spacing: -1px;
-}
-
-.home {
-  display: block;
-  color: #2F251B;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size:3vw;
-  margin-top: 7%
-}
-a.home {
-  display: block;
-  color: #2F251B;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size:3vw;
-  margin-top: 10%
 }
 
 }
