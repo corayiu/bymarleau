@@ -18,7 +18,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/jquery.pageSlide.js"></script>
-<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
 </head>
 <body>
 	
@@ -86,6 +86,10 @@
                        threshold:0
                     });
                 });
+    </script>
+    <script type="text/javascript">
+        var testis = document.getElementById('testis');
+        Hammer(testis).on("swipe", function(event))
     </script>
 </body>
 </html>
