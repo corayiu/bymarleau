@@ -89,7 +89,9 @@
     </script>
     <script type="text/javascript">
         var testis = document.getElementById('testis');
-        Hammer(testis).on("swipe", function(event))
+        Hammer(testis).on("swipeleft", function() {
+            $(blue).animate({left: "-=100"}, 500)  
+        });
     </script>
 </body>
 </html>
