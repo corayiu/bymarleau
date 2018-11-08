@@ -664,6 +664,10 @@ h1 span:nth-child(3n):hover{
   display: none;
 }
 
+.blockquote4 {
+  display: none;
+}
+
 .imageblock {
   /*padding: 70px 20px;*/
    float: left;
@@ -1301,7 +1305,7 @@ margin-top:1%;
 
     .slick-prev:before,
     .slick-next:before {
-      color: black;
+      color: black
     }
 
 
@@ -1330,6 +1334,12 @@ margin-top:1%;
 /*--------------MOBILE--------------*/
 
 @media screen and (max-width: 667px) {
+
+  * {
+  padding: 0;
+  margin: 0;
+}
+
 
 /*.mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
             background-color: transparent;
@@ -1677,6 +1687,15 @@ margin-top:10%;
   padding: 70px 0px;
   width:100%;
   color: #fffef7;
+  font-size: 10vw;
+  letter-spacing: -0.5px;
+}
+
+.blockquote4 { 
+  display: block;
+  padding: 70px 0px;
+  width:100%;
+  color: #2F251B;
   font-size: 10vw;
   letter-spacing: -0.5px;
 }
