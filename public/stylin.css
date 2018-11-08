@@ -1692,12 +1692,18 @@ margin-top:10%;
 }
 
 .blockquote4 { 
+  background-color:#fffef7;
   display: block;
   padding: 70px 0px;
   width:100%;
   color: #2F251B;
   font-size: 10vw;
   letter-spacing: -0.5px;
+}
+
+.blockquote4 a {
+  text-decoration: none;
+  color: #2F251B;
 }
 
 .hovertext {
