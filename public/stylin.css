@@ -1797,7 +1797,9 @@ a:hover + .hovertext3  {
 .buzzer {
   font-size: 3vw;
 }
-
+.fa {
+  font-size: 1vw;
+}
 }
 
 /*--------------MOBILE-XS--------------*/
@@ -1912,5 +1914,7 @@ h1 {  font-family: 'Antic Didone', Georgia, serif;
   padding: 20px;
   letter-spacing: -1px;
 }
+
+
 
 }

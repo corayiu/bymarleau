@@ -21,8 +21,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 <style type="text/css">body, a:hover {cursor: url(../cursor.cur), progress !important;}</style>
-<link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -58,10 +58,10 @@
 </div>
 </div>
 	<div class="content">
-        <section class="lazyslider">
+        <div class="lazyslider">
                 <div class="testis"><h1>Marleau’s approach to haircutting is effortlessly intuitive. She has always been very thoughtful and accommodating, listening carefully to my needs and intentions — responding to me in a very personalized, mindful, and holistic way which always leaves me feeling my most beautiful self. She is a true gem, uniquely gifted in her techniques and approach to her craft. [Leanne]</h1></div>
                 <div class="testis"><h1>Marleau is without question, my favourite hairstylist. While she was away from Vancouver I opted to let my hair grow out with only minimal upkeep. Myself - and my wife - are exceptionally happy that Marleau has returned to keep me looking attractive and updated.<br><br>[Matija]</h1></div>
-                <div class="testis"><h1>Walking into your appointment with Marleau feels like a complete breath of fresh air. The space in itself is light and cozy, but there’s something about the atmosphere that will put your mind at ease. My hair has been a complete train wreck for the past few years, and Marleau talked me through what we could do, and we talked about what I wanted. To say the least, I left feeling like a new woman, and I’m dying to go back again.<br><br>[Sophia]</h1></div></section>
+                <div class="testis"><h1>Walking into your appointment with Marleau feels like a complete breath of fresh air. The space in itself is light and cozy, but there’s something about the atmosphere that will put your mind at ease. My hair has been a complete train wreck for the past few years, and Marleau talked me through what we could do, and we talked about what I wanted. To say the least, I left feeling like a new woman, and I’m dying to go back again.<br><br>[Sophia]</h1></div></div>
         </div>
     </div>
 
@@ -69,30 +69,20 @@
 
 </div>
 
-<script src="../testis.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../testis.js"></script>
 
 <script type="text/javascript">
- $(document).on('ready', function() {
+$(document).ready(function() {
       $(".lazyslider").slick({
-        lazyLoad: 'ondemand', // ondemand progressive anticipated
-        infinite: true,
-        dots: true,
-        arrows: false,
-        swipe: true,
-        touchMove: true,
-        touchThreshold: 5,
-        speed: 1000,
-        responsive: [
-    {
-      breakpoint: 480,
-      settings: {
-        infinite: true,
-        dots: true
-      } } ]
+ dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1
       });
-    });
+})
 </script>
 </body>
 </html>
