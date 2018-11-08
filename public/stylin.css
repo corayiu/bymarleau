@@ -1368,13 +1368,13 @@ margin-top:1%;
 .grid {
   overflow-x: hidden;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
   grid-template-areas:
  /* "nav nav"*/
-  "title"
-  "content"
-  "content2";
+  "title title"
+  "content content"
+  "content2 content2";
 }
 
 .grid2 {
