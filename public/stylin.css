@@ -550,39 +550,6 @@ h1 span:nth-child(3n):hover{
    color: #D0C3B0;
 }*/
 
-.box {
-    position: relative;
-    z-index: 0;
-}
-
-.box>div>div {
-/*    display: flex;*/
-    justify-content: center;
-    align-items: center;
-}
-
-.box>ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-} 
-
-.box>ul li {
-    width: 15px;
-    height: 15px;
-    margin: 20px;
-    border-radius: 50%;
-    border: 5px solid #2F251B;
-    transition: all 1s ease;
-}
-
-.box>ul li.active {
-    border-color: #c89b4e; 
-}
 
 .row {
   width: 85%;
@@ -1569,24 +1536,6 @@ margin-top:10%;
   letter-spacing: -0.5px;
 }
 
-.box>ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5%;
-} 
-
-.box>ul li {
-    width: 12px;
-    height: 12px;
-    margin: 15px 10px; 
-    border-radius: 50%;
-    border: 4px solid #2F251B;
-    transition: all 1s ease;
-}
 
  .nav ul {
         margin: 0;
