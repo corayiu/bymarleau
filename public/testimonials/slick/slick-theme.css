@@ -203,3 +203,13 @@
     opacity: 1;
     border-color: #c89b4e; 
 }
+
+/*--------------MOBILE--------------*/
+
+@media screen and (max-width: 667px) {
+
+.slick-dots
+{
+    bottom:10%;
+}
+    }
