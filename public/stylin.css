@@ -1483,7 +1483,7 @@ h1 {
   font-family: 'Antic Didone', Georgia, serif;
   font-size:3vw;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   letter-spacing: -0.5px;
 }
 
@@ -1747,7 +1747,7 @@ a:hover + .hovertext3  {
   font-size: 3vw;
 }
 .icon {
-  font-size: 6vw;
+  font-size: 6.5vw;
 }
 
 
@@ -1862,7 +1862,7 @@ margin-top:6%;
 h1 {  font-family: 'Antic Didone', Georgia, serif;
   font-size:2.7vw;
   text-align: center;
-  padding: 20px;
+  padding: 13px;
   letter-spacing: -1px;
 }
 
