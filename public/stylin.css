@@ -1514,7 +1514,7 @@ input[type=range]::-webkit-slider-thumb {
 
 h1 {
   font-family: 'Antic Didone', Georgia, serif;
-  font-size:5vh;
+  font-size:5vw;
   text-align: center;
   padding: 20px;
   letter-spacing: -0.5px;
@@ -1909,7 +1909,7 @@ margin-top:6%;
 }
 
 h1 {  font-family: 'Antic Didone', Georgia, serif;
-  font-size:2.7vh;
+  font-size:2.7vw;
   text-align: center;
   padding: 20px;
   letter-spacing: -1px;
