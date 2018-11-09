@@ -1746,9 +1746,11 @@ a:hover + .hovertext3  {
 .buzzer {
   font-size: 3vw;
 }
-.fa {
-  font-size: 1vw;
+.icon {
+  font-size: 6vw;
 }
+
+
 }
 
 /*--------------MOBILE-XS--------------*/
