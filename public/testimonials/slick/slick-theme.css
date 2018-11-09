@@ -212,4 +212,9 @@
 {
     bottom:10%;
 }
-    }
+
+.slick-dots li button:before
+{
+    width: 10px;
+    height: 10px;
+}    }
